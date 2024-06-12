@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav-bar section started */
+
+#nav-bar{
+    width: 100%;
+    background-color: rgba(231, 238, 251, 0.9); 
+    position: sticky;
+    top: 0;
+    z-index: 10;
+ 
+}
+#nav-bar .navbar-brand{
+    font-size: 1.2rem;
+}
+#nav-bar .navbar a{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+#nav-bar .navbar-nav li{
+    margin-right: 1.5rem;
+}
+#nav-bar .navbar-nav li a{
+    float: right;
+    text-align: left;
+    font-size: 0.850rem;
+}
+#nav-bar .nav-item a:hover{
+    color: rgba(63, 166, 71, 0.9);
+    transition: 0.5s ease all;
+}
+#nav-bar .navbar-brand:hover{
+    color: RGB(62, 131, 252);
+    transition: 0.5s ease all;
+}
+
+/* nav-bar section end */
+
+/* banner section started */
+
+#banner{
+    width: 100%;
+    background-image: url(../asset/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(231, 238, 251, 0.9); 
+    
+}
+.row{
+    
+    padding-top: 7%;
+    padding-bottom: 4rem;
+    
+}
+#banner .part-1{
+    padding: 0px 50px;
+}
+#banner .banner-title{
+    margin-top: 100px;
+    font-size: 2.8rem;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(10, 0, 0, 0.9);
+   
+}
+#banner .banner-text{
+    margin-top: 50px;
+    padding-right: 6rem;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+   font-weight: 600;
+   color: rgba(10, 0, 0, 0.7);
+}
+#banner .btn-info{
+    color: #fff;
+    background-color: RGB(62, 131, 252);
+    outline: none;
+    border: none;
+    padding: 12px 25px;
+    font-size: 22px;
+} 
+#banner .btn-outline-success{
+    color:RGB(62, 131, 252);
+    border: 1px solid RGB(62, 131, 252); 
+    background-color: rgba(255, 255, 255, 0.5);
+   
+    outline: none;
+    padding: 12px 15px;
+    font-size: 20px;
+    
+}
+#banner .btn-outline-success .fa-circle-play{
+    font-size: 25px;
+} 
+#banner .btn-info:hover{
+    color: rgb(18, 15, 15);
+    background-color: rgba(255, 255, 255, 0.5); 
+    outline: none;
+    border: none;
+    transition: 0.6s ease all;
+    border: 1px solid RGB(62, 131, 252);
+}
+#banner .btn-outline-success:hover{
+    color: #fff;
+    background-color: RGB(62, 131, 252); 
+    border: none;
+    transition: 0.5s ease all;
+}
+#banner .part-2{
+    text-align: center;
+}
+#banner .banner-part-img{
+    width: 400px;
+    height: 700px;
+    height: auto;
+    position: relative;
+    bottom: -9rem;
+    cursor: pointer;
+}
+
+/* banner section end */
+
+/* services section started  */
+#services{
+    width: 100%;
+    margin-top: 200px;
+}
+#services .services-part{
+    padding: 10px 60px;
+}
+#services .services-part i{
+    font-size: 40px;
+    color: #3e83fc;
+    margin-bottom: 10px;
+}
+#services .services-part h4{
+   color: rgba(10, 0, 0, 0.9);
+    font-size: 30px;
+}
+#services .services-part p{
+    font-family: cursive;
+    font-size: 18px;
+    color: rgba(10, 0, 0, 0.7);
+}
+
+#services .services-bottom-text span{
+    font-size: 18px;
+    font-weight: bold;
+}
+#services .services-part .after-effect::after{
+    content: '';
+    background: red;
+    width: 60px;
+    height: 2px;
+    display: block;
+}
+/* services section end */
+
+/* contact section started */
+
+#contact{
+    width: 100%;
+    margin-top: 100px;
+}
+#contact .contact-img{
+    width: 500px;
+    height: auto;
+    padding: 0px 40px;
+    margin-bottom: 50px;
+}
+#contact .contact-text{
+    padding: 0px 50px;
+    margin-top: 50px;
+}
+
+#contact .contact-text h1{
+    font-size: 45px;
+    font-weight: 700;
+   margin-bottom: 20px;
+   color: rgb(20, 20, 20);
+}
+#contact .contact-text p{
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    color: rgba(10, 0, 0, 0.6);
+    margin-bottom: 25px;
+}
+#contact .contact-text .btn-success {
+    background-color: RGB(62, 131, 252);
+    font-family: 'Heebo', sans-serif;
+    color: #fff;
+    padding: 12px 25px;
+    border-top-right-radius: 30px;
+    outline: none;
+    border: none;
+}
+#contact .contact-text .btn-success:hover{
+    background-color: rgba(59, 161, 68, 0.9);
+    transition: 0.5s ease all;
+}
+/* contact section end */
